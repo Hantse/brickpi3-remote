@@ -1,6 +1,6 @@
 const brickpi3 = require('brickpi3');
 const signalR = require('@microsoft/signalr');
-const HOST = process.env.HOST || 'http://localhost:5000';
+const HOST = process.env.HOST || 'http://192.168.1.130:5000';
 const CLIENTNAME = process.env.CLIENTNAME || 'defautlClient';
 
 const connection = new signalR.HubConnectionBuilder()
